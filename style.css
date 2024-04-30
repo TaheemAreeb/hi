@@ -1,0 +1,29 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.cards{
+	width: 300px;
+	background: #f1f2f4;
+	border-radius: 5px;
+	font-size: 25px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	margin: 20px;
+}
+.cards img{
+	border-radius: 5px;
+	width: 100%;
+}
+*{
+	margin: 0;
+}
+.cards a{
+	text-align: left;
+}
+.cards a:hover{
+	color: black;
+	transition: 1s;
+	text-decoration: none;
+}
